@@ -19,10 +19,11 @@ class starter{
 			}
 			Prime=true;
 			C++;
-			if(I>=100){
+			if(I>=10000){
 				I=0;
-				System.out.print(Numbers);
+				System.out.print(List);
 				Numbers=new String();
+				break;
 			}
 		}
 	}
