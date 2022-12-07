@@ -5,7 +5,6 @@ class starter{
 		String Numbers=new String();
 		String List=new String();
 		int I=0;
-		int CI=0;
 		System.out.println("\nPlease wait...");
 		while(C<2147483647){
 			for(int Counter=2;Counter<C;Counter++){
@@ -22,12 +21,8 @@ class starter{
 			C++;
 			if(I>=100){
 				I=0;
-				System.out.print(Numbers;
+				System.out.print(Numbers);
 				Numbers=new String();
-				CI++;
-			}
-			if(CI>=100){
-				break;
 			}
 		}
 	}
