@@ -10,7 +10,7 @@ class starter{
 		String List=new String();
 		int I=0;
 		while(C<2147483647){
-			for(int Counter=2;Counter<Infi.size();Counter++){
+			for(int Counter=0;Counter<Infi.size();Counter++){
 				if(C%Infi.get(Counter)==0){
 					Prime=false;
 				}
